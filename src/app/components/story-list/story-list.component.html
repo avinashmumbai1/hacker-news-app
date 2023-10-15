@@ -1,0 +1,7 @@
+<!-- story-list.component.html -->
+<div *ngFor="let story of stories">
+  <h3>{{ story.title }}</h3>
+  <p *ngIf="story.url"><a [href]="story.url" target="_blank">{{ story.url }}</a></p>
+  <hr />
+</div>
+

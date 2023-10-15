@@ -1,0 +1,30 @@
+/* app.component.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .story {
+    margin-bottom: 10px;
+  }
+  
+  .pagination-bar {
+    margin-top: 20px;
+  }
+  
+  .pagination-bar button {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-bar button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

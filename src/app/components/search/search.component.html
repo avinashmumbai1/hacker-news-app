@@ -1,0 +1,15 @@
+<!-- search.component.html -->
+<input [(ngModel)]="query" placeholder="Search...">
+<button (click)="search()">Search</button>
+
+<div *ngIf="searchResults && searchResults.length > 0; else noResults">
+  <div *ngFor="let result of searchResults">
+    <h3>{{ result.title }}</h3>
+    <p *ngIf="result.url"><a [href]="result.url" target="_blank">{{ result.url }}</a></p>
+    <hr />
+  </div>
+</div>
+
+<ng-template #noResults>
+  <p>No results found.</p>
+</ng-template>
