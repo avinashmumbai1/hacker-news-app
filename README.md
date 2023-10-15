@@ -1,3 +1,7 @@
+There seems to be some problem with my Search component as even though my api is returning the correct search but on my angular app it is failing . 
+I need to investigate this . 
+
+
 # HackerNewsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.6.
